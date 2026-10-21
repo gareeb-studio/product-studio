@@ -15,8 +15,10 @@ Membership is effective **only** when an admission vote passes AND the PR adding
 | # | Member | GitHub | Role | Admitted by | Date |
 |---|---|---|---|---|---|
 | 1 | Baber Sheikh | [@b0b90](https://github.com/b0b90) | Founder | Founder — created the Studio | 2026-10-21 |
+| 2 | Asad Khilji | [@asadkhilji](https://github.com/asadkhilji) | Member | Baber Sheikh (#1) — founder vote 1/1, Issue #3 | 2026-10-21 |
 
 ## Admission history
 
 | Vote | Applicant | Voters | For / Against | Needed | Result | Date |
 |---|---|---|---|---|---|---|
+| ADMIT-001 | Asad Khilji (@asadkhilji) | Baber Sheikh | 1 / 0 | 1 | PASSED | 2026-10-21 |

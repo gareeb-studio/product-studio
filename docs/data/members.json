@@ -6,5 +6,13 @@
     "role": "Founder / Member #1",
     "admitted_by": "Founder \u2014 created the Studio",
     "date": "2026-10-21"
+  },
+  {
+    "n": 2,
+    "name": "Asad Khilji",
+    "github": "asadkhilji",
+    "role": "Member #2",
+    "admitted_by": "Baber Sheikh (#1) \u2014 founder vote 1/1, Issue #3",
+    "date": "2026-10-21"
   }
 ]
