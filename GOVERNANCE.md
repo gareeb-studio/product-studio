@@ -48,6 +48,12 @@ Gate decisions: **ADVANCE / REWORK / PAUSE / KILL**.
 
 **Contribution points do NOT automatically equal ownership or voting power.** Ownership / revenue sharing must be agreed separately and documented before meaningful revenue is involved.
 
+## Co-ownership of the organization
+
+Admitted Studio members are **co-owners** of the GitHub organization (Owner role) —
+decided by Baber 2026-10-21, to be ratified in SETUP-001. Admission is therefore an
+ownership decision, and the admission threshold (ceil(2/3 x current co-owners)) applies.
+
 ## Roles (per active product)
 
 - **Product Captain** — routine product decisions, keeps it moving.

@@ -33,3 +33,10 @@ Admission threshold = the normal gate threshold: **ceil(2/3 × current members)*
 
 ## To publish the page
 After the repo exists on GitHub: Settings → Pages → Source: Deploy from a branch → Branch: `main`, folder: `/docs`. Share the resulting `https://<org>.github.io/product-studio/` link (e.g. on WhatsApp). The repo itself can stay public for the page + issues while product code later lives in separate private repos — decide public/private in SETUP-001 (flag: a private repo cannot host a free Pages site on the free plan, and join issues need the applicant to be able to open them).
+
+## Co-owner decision (Baber, 2026-10-21)
+
+When a user joins after voting, **he is a co-owner, not a member.**
+Applied from the first admission onward: admission vote passes -> GitHub organization
+invitation goes out with role **Owner**. Asad Khilji (Member #2 by chain order) was the
+first case — his pending Member invitation was upgraded to Owner the same day.

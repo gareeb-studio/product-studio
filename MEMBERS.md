@@ -2,6 +2,17 @@
 
 Membership is effective **only** when an admission vote passes AND the PR adding the member here (and to `docs/data/members.json`) is merged. No merge = no membership.
 
+## Co-owner rule (DECIDED by Baber, 2026-10-21 — to be ratified in SETUP-001)
+
+**A person who passes an admission vote is a CO-OWNER, not a plain member.**
+On admission they are invited to the GitHub organization with the **Owner** role — equal
+technical power over the org and its repos. "Member #N" in the table below is only the
+chain order (sequence of admission), not a lower rank.
+
+This means the trust bar for admission votes is an ownership bar: every co-owner can
+technically add/remove people and change org settings. The governance ledger — not GitHub
+permissions — is what keeps that power inside the voting rules.
+
 ## Admission rule (PROPOSED — to be ratified in SETUP-001)
 
 - Member #2: admitted by the Founder alone (1 of 1).
@@ -15,7 +26,7 @@ Membership is effective **only** when an admission vote passes AND the PR adding
 | # | Member | GitHub | Role | Admitted by | Date |
 |---|---|---|---|---|---|
 | 1 | Baber Sheikh | [@b0b90](https://github.com/b0b90) | Founder | Founder — created the Studio | 2026-10-21 |
-| 2 | Asad Khilji | [@asadkhilji](https://github.com/asadkhilji) | Member | Baber Sheikh (#1) — founder vote 1/1, Issue #3 | 2026-10-21 |
+| 2 | Asad Khilji | [@asadkhilji](https://github.com/asadkhilji) | Co-owner | Baber Sheikh (#1) — founder vote 1/1, Issue #3 | 2026-10-21 |
 
 ## Admission history
 
