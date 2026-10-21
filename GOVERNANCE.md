@@ -54,6 +54,21 @@ Admitted Studio members are **co-owners** of the GitHub organization (Owner role
 decided by Baber 2026-10-21, to be ratified in SETUP-001. Admission is therefore an
 ownership decision, and the admission threshold (ceil(2/3 x current co-owners)) applies.
 
+## Enforcement — no single-person changes (from 2026-10-21)
+
+Decided by Baber: *"No single individual can make change to this repo without vote — not even me."*
+
+Enforced by GitHub branch protection on `main` (not just by this text):
+- Direct pushes to `main` are **rejected** — all changes enter through a Pull Request.
+- A PR needs **at least 1 approving review from another co-owner**. The author cannot approve their own PR, so no one can land a change alone.
+- The rules apply to **admins/owners too** (`enforce_admins` on).
+- Force pushes and branch deletion are **blocked**. Stale approvals are dismissed when a PR changes. Review conversations must be resolved before merging.
+- Verified at setup: a direct push test was rejected ("Changes must be made through a pull request") and `main` did not move.
+
+Honest limit: an org Owner can technically edit the protection settings themselves — GitHub gives owners that power and it cannot be removed. The ledger + this record are what make any such change visible and accountable. Issue comments and gate votes are unaffected: discussion stays open to all members; only *changes to the repo* are locked.
+
+This PR is the first change under the new rule — it can only merge with another co-owner's approval.
+
 ## Roles (per active product)
 
 - **Product Captain** — routine product decisions, keeps it moving.
