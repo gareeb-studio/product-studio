@@ -1,36 +1,35 @@
 ---
 name: Join Request
-about: Ask the current members to vote you into Product Studio
+about: Ask to join Gareeb Studio (2 minutes)
 title: "JOIN REQUEST: "
 labels: voting
 ---
 
-GitHub username:
-<!-- The author of this issue IS the applicant — GitHub verifies this identity. -->
+## 👋 I want to join Gareeb Studio
 
-Real name:
+**My name:**
+<!-- Example: Ahmed Raza -->
 
-Who invited / knows you (if anyone):
+**My GitHub username:**
+<!-- Example: @ahmedraza — this page already shows it at the top, just confirm it here -->
 
-What I bring:
-<!-- e.g. development, design, research, marketing, sales, testing, capital, operations -->
+**What can I help with?** (write one or more)
+Coding / Design / Ideas & Research / Testing / Marketing & Sales / Money / Something else: ___
 
-Why I want in:
+**Why do I want to join?** (one or two lines is enough)
 
-## Entry Agreement — all boxes must be ticked
-- [ ] I have read and accept the Governance (phases, gates, locked phases).
-- [ ] I accept voting: 2/3 for normal gates & admissions, 75% for major decisions.
-- [ ] I understand contribution points ≠ ownership ≠ voting power; ownership is agreed separately in writing before development begins.
-- [ ] I accept: one active product at a time, no skipping phases.
-- [ ] I will record ideas, decisions, votes and work in GitHub, not only in chat.
-- [ ] I will not push directly to the protected `main` branch.
 
-## Vote (current members only)
-Comment exactly one of:
-`VOTE: ADMIT`
-`VOTE: REJECT`
+**Who knows me here?** (if anyone)
 
-Deadline:
-<!-- set when the request opens, e.g. 72 hours -->
 
-Result is recorded in `votes/ADMIT-XXX` and membership starts only when the membership PR merges.
+## 🤝 I agree — tick every box
+- [ ] We work on one product at a time, together.
+- [ ] Decisions are made by vote (2 out of 3 to pass; bigger decisions need 3 out of 4).
+- [ ] My work will be written down here so everyone's effort counts fairly.
+- [ ] I understand: helping does not automatically make me an owner of a product — ownership is agreed in writing, separately.
+- [ ] I will keep ideas, votes and work here on GitHub, not only in chats.
+
+## 🗳️ Vote (only current co-owners write below this line)
+Co-owners: comment `VOTE: ADMIT` or `VOTE: REJECT`.
+
+If the vote passes, this person becomes a **co-owner** (GitHub Owner invite) — not just a member.

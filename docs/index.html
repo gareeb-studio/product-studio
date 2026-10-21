@@ -1,90 +1,98 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Product Studio — Join by Vote</title>
+<title>Gareeb Studio — Join us</title>
 <style>
-:root{--bg:#0b1220;--card:#121c30;--line:#24314d;--txt:#eaf0ff;--mut:#93a4c3;--acc:#38d39f;--acc2:#6ea8ff;--gold:#ffd166}
+:root{--bg:#0b1220;--card:#121c30;--line:#24314d;--txt:#eaf0ff;--mut:#9db0d0;--acc:#38d39f;--acc2:#6ea8ff;--gold:#ffd166}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:radial-gradient(900px 500px at 20% -10%,#1b3a5c,transparent),var(--bg);color:var(--txt)}
-.wrap{max-width:980px;margin:0 auto;padding:28px 18px 60px}
+.wrap{max-width:900px;margin:0 auto;padding:26px 18px 60px}
 .pill{display:inline-block;padding:5px 11px;border:1px solid var(--line);border-radius:999px;color:var(--acc);font-size:13px}
-h1{font-size:44px;line-height:1.05;margin:14px 0 10px}h1 span{color:var(--acc)}
-.lead{color:var(--mut);font-size:18px;max-width:720px;line-height:1.55}
-.btn{display:inline-block;background:var(--acc);color:#06281c;font-weight:800;padding:14px 22px;border-radius:12px;text-decoration:none;font-size:17px}
-.btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line);font-weight:600}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px;margin:22px 0}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
-.card h3{margin:0 0 8px}.card p,.card li{color:var(--mut);line-height:1.55}
-.chain{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:12px 0}
-.node{background:#0e2a21;border:1px solid #205843;border-radius:14px;padding:12px 14px;min-width:150px}
+h1{font-size:42px;line-height:1.08;margin:14px 0 10px}h1 span{color:var(--acc)}
+.lead{color:var(--mut);font-size:19px;max-width:700px;line-height:1.55}
+.urdu{color:var(--gold);font-size:16px;line-height:1.6}
+.btn{display:inline-block;background:var(--acc);color:#06281c;font-weight:800;padding:16px 26px;border-radius:12px;text-decoration:none;font-size:18px;border:0;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line);font-weight:600;font-size:16px;padding:14px 20px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:24px 0}
+.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.step .num{font-size:30px;font-weight:900;color:var(--acc)}
+.step p{color:var(--mut);line-height:1.55;margin:6px 0 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.card p,.card li{color:var(--mut);line-height:1.6}
+.chain{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:10px 0}
+.node{background:#0e2a21;border:1px solid #205843;border-radius:14px;padding:12px 14px;min-width:140px}
 .node.open{background:#1a2338;border-style:dashed;color:var(--mut)}
 .arrow{color:var(--acc);font-size:22px}
-input[type=range]{width:100%}
-.big{font-size:34px;font-weight:900;color:var(--gold)}
 table{width:100%;border-collapse:collapse}td,th{padding:9px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--mut)}
-a{color:var(--acc2)}footer{color:var(--mut);margin-top:34px;font-size:14px;line-height:1.6}
-.agree li{margin:7px 0}
+a{color:var(--acc2)}footer{color:var(--mut);margin-top:30px;font-size:14px;line-height:1.6}
+details{margin:10px 0}summary{cursor:pointer;font-weight:700}
+.small{font-size:14px;color:var(--mut)}
 </style></head><body><div class="wrap">
-<span class="pill">🔒 IDEA BOARD CLOSED — UNTIL SETUP-001 PASSES</span>
-<h1>Product Studio<br><span>Join by vote. Build by evidence.</span></h1>
-<p class="lead">A group of friends turning ideas into real, launched products — one product at a time. GitHub is the source of truth. Nobody is a member because a page says so: <b style="color:#fff">you become a member when the existing members vote you in and that vote is merged into this repository.</b></p>
-<p><a class="btn" id="joinBtn" href="#" target="_blank" rel="noopener">Join with GitHub →</a>
-&nbsp;<a class="btn ghost" href="#how">How admission works</a></p>
-<p style="color:var(--mut)">Joining opens a GitHub Join Request in your own GitHub account — GitHub itself verifies who you are. No password, no new account, no backend.</p>
+<span class="pill">FRIENDS · ONE TEAM · EVERYONE A CO-OWNER</span>
+<h1>Gareeb Studio<br><span>Friends building products together.</span></h1>
+<p class="lead">We pick <b style="color:#fff">one idea</b>, build it together, and launch it. No bosses. Decisions happen by <b style="color:#fff">vote</b>. If you join, you don't join as a worker — you join as a <b style="color:#fff">co-owner</b>.</p>
+<p class="urdu">Doston ka studio hai: idea hum sab mil kar chunte hain, faisla vote se hota hai, aur join karne wala har banda co-owner banta hai.</p>
 
-<h2 id="how">The Chain — how each new member enters</h2>
+<div class="steps">
+<div class="step"><div class="num">1</div><p><b style="color:#fff">Tap the green button</b><br>It takes you to a short form on GitHub.</p></div>
+<div class="step"><div class="num">2</div><p><b style="color:#fff">Fill the short form</b><br>Your name, what you can help with, and tick "I agree". Takes 2 minutes.</p></div>
+<div class="step"><div class="num">3</div><p><b style="color:#fff">We vote</b><br>Current co-owners vote. If you pass, you become a co-owner too. Simple.</p></div>
+</div>
+
+<p><a class="btn" id="joinBtn" href="#" target="_blank" rel="noopener">✅ Join with GitHub</a></p>
+<p class="small">No GitHub account yet? It's free and takes 2 minutes:
+<a href="https://github.com/signup" target="_blank" rel="noopener">Create a free GitHub account</a>, then come back and tap Join.</p>
+<p>
+<button class="btn ghost" id="copyBtn">📋 Copy this page link</button>
+<a class="btn ghost" id="waBtn" href="#" target="_blank" rel="noopener">Share on WhatsApp</a>
+</p>
+
+<div class="card"><h3 style="margin-top:0">👥 Who is already in?</h3>
+<table><thead><tr><th>#</th><th>Person</th><th>GitHub</th><th>Role</th></tr></thead><tbody id="members"><tr><td>1</td><td>Baber Sheikh</td><td>@b0b90</td><td>Founder · Co-owner</td></tr></tbody></table>
+<p id="applicants" class="small">Waiting for a vote right now: nobody. You could be next.</p></div>
+
+<div class="card"><h3 style="margin-top:0">🗳️ How does the vote work?</h3>
 <div class="chain" id="chain"></div>
-<div class="grid">
-<div class="card"><h3>1 · Member #2</h3><p>Baber (Founder, #1) alone admits Member #2. That's 1 vote out of 1 member — 100%.</p></div>
-<div class="card"><h3>2 · Member #3</h3><p>Baber <b>and</b> Member #2 vote. Admission needs ⌈⅔ × 2⌉ = <b>2 of 2</b>. One “no” blocks it.</p></div>
-<div class="card"><h3>3 · Member #4 onward</h3><p>Every existing member votes. Admission needs <b>at least ⅔ of all current members</b> — the same threshold as a normal gate in our Governance.</p></div>
+<p>First, Baber alone approved person #2. Then Baber + #2 approved the next person. Now every co-owner votes, and you need <b style="color:#fff">2 out of every 3 votes</b> to get in. Nobody can sneak in — and nobody can be kept out by one person either.</p>
+<details><summary>See exactly how many votes are needed</summary>
+<p>Current co-owners: <b id="nLab">2</b> &nbsp;<input type="range" id="n" min="1" max="15" value="2" style="vertical-align:middle"></p>
+<p><b id="need" style="color:var(--gold);font-size:22px">2</b> <span class="small">YES votes needed for the next person to join</span></p>
+<p class="small" id="calcNote"></p></details></div>
+
+<div class="card"><h3 style="margin-top:0">🤝 What am I agreeing to?</h3>
+<ul>
+<li>We work on <b style="color:#fff">one product at a time</b> — together.</li>
+<li>Big decisions are made by <b style="color:#fff">vote</b>, not by one person.</li>
+<li>Work you do is <b style="color:#fff">written down</b> here, so everyone's effort is counted fairly.</li>
+<li><b style="color:#fff">Helping ≠ owning.</b> Ownership is decided in writing, separately.</li>
+<li>We keep everything in the open — on GitHub, not in lost chats.</li>
+</ul>
+<p class="small">That's it. The full rules are in the repository for anyone who wants the details.</p></div>
+
+<div class="card"><h3 style="margin-top:0">❓ Quick questions</h3>
+<details><summary>Does it cost anything to join?</summary><p>No. Joining is free. If a product needs money later, that's decided by vote first.</p></details>
+<details><summary>I don't know coding. Can I still join?</summary><p>Yes. Products need ideas, research, design, testing, marketing and sales — not only coding.</p></details>
+<details><summary>What happens after I send the form?</summary><p>Co-owners vote on your request page. If you pass, you get an invitation to the team as a co-owner, and then you can vote on the next person.</p></details>
+<details><summary>Why GitHub?</summary><p>So every idea, vote and piece of work is saved in one place that nobody can quietly change.</p></details>
 </div>
 
-<div class="card"><h3>🧮 Vote calculator — try it</h3>
-<p>Current members: <b id="nLab">3</b></p>
-<input type="range" id="n" min="1" max="15" value="3">
-<p><span class="big" id="need">2</span> <span style="color:var(--mut)">ADMIT votes needed to let the next member in</span></p>
-<p id="calcNote" style="color:var(--mut)"></p></div>
-
-<h2>Current members</h2>
-<div class="card"><table><thead><tr><th>#</th><th>Member</th><th>GitHub</th><th>Admitted by</th></tr></thead><tbody id="members"><tr><td>1</td><td>Baber Sheikh — Founder</td><td><a href="https://github.com/b0b90">@b0b90</a></td><td>Founder</td></tr></tbody></table>
-<p id="applicants" style="color:var(--mut)">Pending applicants: none yet. The first Join Request will appear here.</p></div>
-
-<h2>The Entry Agreement — you tick this in your Join Request</h2>
-<div class="card"><ul class="agree">
-<li>☐ I have read and accept the Governance (phases, gates, locked phases).</li>
-<li>☐ I accept voting: ⅔ for normal gates &amp; admissions, 75% for major decisions.</li>
-<li>☐ I understand contribution points ≠ ownership ≠ voting power — ownership is agreed separately, in writing, before development on a product begins.</li>
-<li>☐ I accept: one active product at a time, and no skipping phases.</li>
-<li>☐ I will record ideas, decisions, votes and work in GitHub — not only in chat.</li>
-<li>☐ I will not push directly to the protected <code>main</code> branch.</li>
-</ul></div>
-
-<h2>What happens after you click Join</h2>
-<div class="grid">
-<div class="card"><h3>Step 1 — Request</h3><p>GitHub opens a pre-filled Join Request. Fill in who you are, what you bring, and tick the Entry Agreement. Your GitHub username is the author — that's your identity.</p></div>
-<div class="card"><h3>Step 2 — Vote</h3><p>Current members comment <code>VOTE: ADMIT</code> or <code>VOTE: REJECT</code> on your request before the deadline. Result stays recorded forever.</p></div>
-<div class="card"><h3>Step 3 — Merged = Member</h3><p>If it passes, a PR adds you to <code>members.json</code> + <code>MEMBERS.md</code> and records the vote in <code>votes/</code>. When that PR merges, you are a member — and you get a vote on the next person.</p></div>
-</div>
-<footer>Product Studio · Evidence unlocks the vote. Voting unlocks the next phase. · Source of truth: this GitHub repository.<br>
-<span id="repoNote"></span></footer>
+<footer>Gareeb Studio · Join by vote. Build by evidence. · Everything official lives in our <a id="repoLink" href="#">GitHub repository</a>.</footer>
 </div>
 <script>
-// ===== EDIT THIS ONE LINE when the real org/repo exists =====
+// ===== EDIT THIS ONE LINE if the org/repo ever changes =====
 const REPO = "gareeb-studio/product-studio";
-const joinUrl = `https://github.com/${REPO}/issues/new?template=join-request.md&title=${encodeURIComponent("JOIN REQUEST: ")}`;
-document.getElementById("joinBtn").href = joinUrl;
-document.getElementById("repoNote").textContent = "Repository (placeholder): github.com/" + REPO;
-// chain visual
-const chainData=[["#1","Baber Sheikh","Founder"],["#2","Next member","Admitted by Baber alone"],["#3","Next member","Baber + #2 must both admit"],["#4+","Next members","⅔ of all current members"]];
-document.getElementById("chain").innerHTML = chainData.map((c,i)=>`${i?'<span class="arrow">→</span>':''}<div class="node ${i?'open':''}"><b>${c[0]} · ${c[1]}</b><br><small>${c[2]}</small></div>`).join("");
-// calculator
+const pageUrl = "https://gareeb-studio.github.io/product-studio/";
+document.getElementById("joinBtn").href = `https://github.com/${REPO}/issues/new?template=join-request.md&title=${encodeURIComponent("JOIN REQUEST: ")}`;
+document.getElementById("repoLink").href = `https://github.com/${REPO}`;
+document.getElementById("waBtn").href = "https://wa.me/?text=" + encodeURIComponent("Join Gareeb Studio — friends building products together, everyone a co-owner. Join here: " + pageUrl);
+document.getElementById("copyBtn").addEventListener("click", async (e)=>{try{await navigator.clipboard.writeText(pageUrl);e.target.textContent="✅ Link copied!";}catch(_){e.target.textContent=pageUrl;}});
+const chainData=[["#1","Baber","Started the studio"],["#2","Asad","Baber voted him in"],["#3","Next person","Baber + Asad vote"],["#4+","More friends","Everyone votes"]];
+document.getElementById("chain").innerHTML = chainData.map((c,i)=>`${i?'<span class="arrow">→</span>':''}<div class="node ${i>1?'open':''}"><b>${c[0]} · ${c[1]}</b><br><small>${c[2]}</small></div>`).join("");
 const n=document.getElementById("n");
 function calc(){const v=+n.value, need=Math.ceil(2*v/3);document.getElementById("nLab").textContent=v;document.getElementById("need").textContent=need;
-document.getElementById("calcNote").textContent = v===1 ? "With 1 member, 1 vote admits Member #2 — the founder decides alone." : v===2 ? "With 2 members, both must agree — one rejection blocks Member #3." : `With ${v} members, ${need} ADMIT votes pass. ${v-need} rejection(s) can be outvoted.`;}
+document.getElementById("calcNote").textContent = v===1 ? "With 1 co-owner, that 1 vote decides." : v===2 ? "With 2 co-owners, both must say yes." : `With ${v} co-owners, ${need} yes votes are enough.`;}
 n.addEventListener("input",calc);calc();
-// live data if hosted on GitHub Pages (falls back to the baked-in table above)
 fetch("data/members.json").then(r=>r.json()).then(list=>{if(Array.isArray(list)&&list.length){
-document.getElementById("members").innerHTML=list.map(m=>`<tr><td>${m.n}</td><td>${m.name}${m.role?" — "+m.role:""}</td><td><a href="https://github.com/${m.github}">@${m.github}</a></td><td>${m.admitted_by||""}</td></tr>`).join("");}}).catch(()=>{});
+document.getElementById("members").innerHTML=list.map(m=>`<tr><td>${m.n}</td><td>${m.name}</td><td><a href="https://github.com/${m.github}">@${m.github}</a></td><td>${m.role||""}</td></tr>`).join("");}}).catch(()=>{});
 fetch("data/applicants.json").then(r=>r.json()).then(list=>{if(Array.isArray(list)&&list.length){
-document.getElementById("applicants").textContent="Pending applicants: "+list.map(a=>`@${a.github} (${a.votes_for||0}/${a.votes_needed||"?"} ADMIT)`).join(", ");}}).catch(()=>{});
+document.getElementById("applicants").textContent="Waiting for a vote right now: "+list.map(a=>`@${a.github}`).join(", ");}}).catch(()=>{});
 </script></body></html>
